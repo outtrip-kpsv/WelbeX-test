@@ -61,6 +61,7 @@
                 this.numberOfPages = this.countRows%this.pageSize!==0?numberOfPages+1:numberOfPages
             },
             PostSearch(data){
+                this.page = 1
                 this.pageSize = data.pageSize;
                 this.search.data = data.dataSearch;
                 this.search.col = data.colOfSearch;

@@ -39,7 +39,6 @@
                 switch (data) {
                     case 'name':
                         this.colActive =1
-
                         break;
                     case 'quantity':
                         this.colActive =2
